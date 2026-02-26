@@ -1,4 +1,53 @@
-#azul {
-    position: relative;
+body {
+    text-align: center;
+    color: white;
 }
 
+#azul {
+    position: relative;
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+    margin-top: 10px;
+    margin-left: 300px;
+    z-index: 1;
+}
+
+#vermelho {
+    position: relative;
+    width: 800px;
+    height: 100px;
+    background-color: red;
+    margin-top: -100px;
+    margin-left: 500px;
+    z-index: 1;
+}
+
+#verde {
+    position: relative;
+    width: 1000px;
+    height: 100px;
+    background-color: chartreuse;
+    margin-left: 300px;
+    z-index: 2;
+}
+
+#amarelo {
+    position: relative;
+    width: 990px;
+    height: 500px;
+    background-color: rgb(228, 253, 0);
+    border: 5px solid red;
+    margin-top: 0px;
+    margin-left: 300px;
+    z-index: 2;
+}
+
+#cinza {
+    position: relative;
+    width: 1000px;
+    height: 100px;
+    background-color: rgb(103, 104, 100);
+    margin-left: 300px;
+    z-index: 1;
+}
