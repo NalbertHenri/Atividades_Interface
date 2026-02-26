@@ -1,0 +1,67 @@
+body {
+    background-color: #ccc;
+}
+
+.container {
+    position: relative;
+    width: 1200px;
+    height: 800px;
+    margin: auto;
+    border: 5px solid black;
+}
+
+.topo {
+    position: relative;
+    width: 1200px;
+    height: 200px;
+    background-color: rgb(22, 205, 196);
+    text-align: center;
+    font-size: 40px;
+    line-height: 150px;
+}
+
+.lateral-esquerda {
+    width: 1200px;
+    height: 570px;
+    background-color: rgb(143, 163, 171);
+}
+
+.conteudo {
+    width: 800px;
+    height: 570px;
+    background-color: darkgray;
+    margin-top: -570px;
+    margin-left: 200px;
+}
+
+.camera {
+    width: 200px;
+    position: relative;
+    top: 400px;
+    left: 550px;
+}
+
+.box {
+    width: 190px;
+    height: 150px;
+    background-color: white;
+    margin-top: -570px;
+    margin-left: 1005px;
+}
+
+.box2 {
+    width: 190px;
+    height: 150px;
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 1005px;
+}
+
+.rodape {
+    width: 1200px;
+    height: 35px;
+    background-color: #2fa7d0;
+    position: relative;
+    margin-top: -40px;
+    margin-left: 160px;
+}
