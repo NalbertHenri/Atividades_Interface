@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: rgb(255, 250, 250);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#topo {
+  width: 100%;
+  height: 100px;
+  background-color: black;
+  text-align: center;
+  line-height: 90px;
+}
+
+#subtopo {
+  width: 100%;
+  height: 50px;
+  background-color: blue;
+}
+
+#conteudo {
+    display: flex;
+}
+
+.links {
+    width: 20%;
+    height: 80vh;
+    background-color: rgb(92, 89, 86);
+}
+
+.meio {
+    width: 80%;
+    height: 80vh;
+    background-color: 
+    rgb(202, 123, 202);
+    text-align: center;
+    margin: auto;
+}
+
+.header {
+    width: 90%;
+    height: 50px;
+    background-color: aliceblue;
+    color: black;
+    margin: auto;
+}
+
+.div {
+    width: 90%;
+    height: 100px;
+    background-color: brown;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.texto {
+    width: 90%;
+    height: 150px;
+    background-color: aquamarine;
+    color: black;
+    margin: auto;
+    margin-top: 10px;
+    text-align: left;
+}
+
+#cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.card {
+    width: 25%;
+    height: 200px;
+    background-color: cadetblue;
+}
+
+.lado_direito {
+    width: 20%;
+    height: 80vh;
+    background-color: rgb(202, 17, 177);
+}
+
+footer {
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    text-align: center;
+}
