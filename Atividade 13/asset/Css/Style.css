@@ -1,0 +1,377 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("../Image/guitarra_fundo_body.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100px;
+  margin: auto;
+  background-repeat: no-repeat;
+  z-index: 2;
+}
+
+/*HEADER */
+
+#corpo {
+  position: relative;
+  width: 90%;
+  height: 100%;
+  background-color: rgb(196, 129, 129);
+  margin: auto;
+}
+
+#topo {
+  height: 200px;
+  background-image: url("../Image/guitarras_header.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  padding: 120px;
+}
+
+.list {
+  display: flex;
+  list-style: none;
+}
+
+.list a {
+  text-decoration: none;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  padding: 15px 20px;
+  border: 20px;
+  transition: all 0.3s ease;
+}
+
+.list a:hover {
+  transform: translateY(5px);
+  border-bottom: white;
+}
+
+/*SECTION CARDS INFO + IMAGE */
+
+#cards {
+  display: flex;
+  justify-content: space-around;
+  height: auto;
+  background-color: rgb(179, 39, 39);
+  margin-top: 10px;
+  color: white;
+  padding: 20px;
+}
+
+.card-info {
+  width: 45%;
+  min-height: 350px;
+  background-color: rgb(196, 129, 129);
+  padding: 10px;
+}
+
+.card-img {
+  width: 45%;
+  height: 350px;
+  background-image: url("../Image/loja.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.card-info h1 {
+  padding: 20px;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.card-info p {
+  padding: 15px;
+  font-size: 18px;
+  font-weight: 200;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+/*SECTION SUBCARDS */
+
+#subcard {
+  width: 100%;
+  min-height: 500px;
+  background-color: rgb(253, 248, 248);
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: black;
+  padding: 20px;
+}
+
+.subcards1 {
+  background-color: rgb(255, 255, 255);
+  width: 22%;
+  min-height: 380px;
+  font-size: 16px;
+  text-align: center;
+  padding: 10px;
+}
+
+.subcards1 img {
+  width: 170px;
+  height: 170px;
+}
+
+.subcards1 p {
+  margin-top: 20px;
+}
+
+.subcards1 span {
+  color: red;
+  font-weight: bold;
+}
+
+/*SECTION MAPA */
+
+#mapa {
+  display: flex;
+  justify-content: space-around;
+  min-height: 500px;
+  background-color: rgb(180, 74, 12);
+  color: white;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+.card-mapa {
+  width: 45%;
+  height: 350px;
+}
+
+.mapa {
+  width: 100%;
+  height: 100%;
+}
+
+.card-subinfo {
+  width: 45%;
+  min-height: 350px;
+  background-color: rgb(196, 129, 129);
+  padding: 10px;
+}
+
+.card-subinfo h1 {
+  padding: 20px;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.card-subinfo p {
+  padding: 15px;
+  font-size: 18px;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+/*SECTION CONTATO */
+
+#contato {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  margin-top: 10px;
+  background-color: #cdcdcd;
+}
+
+.formulario {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+}
+
+.formulario label {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.formulario input {
+  height: 35px;
+  margin-top: 5px;
+  padding: 5px;
+}
+
+.formulario textarea {
+  height: 120px;
+  margin-top: 5px;
+}
+
+.formulario button {
+  margin-top: 15px;
+  height: 35px;
+  width: 200px;
+}
+
+.redes {
+  width: 45%;
+  text-align: center;
+}
+
+.redes h2 {
+  color: #1e2a78;
+  margin-bottom: 20px;
+}
+
+.icons img {
+  width: 70px;
+  margin: 10px;
+}
+
+/*FOOTER */
+
+footer {
+  min-height: 120px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 10px;
+}
+
+footer h3 {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+footer p {
+  font-size: 13px;
+}
+
+.icons-pequenos img {
+  width: 20px;
+  margin: 5px;
+}
+
+/* RESPONSIVO TABLET */
+
+@media (max-width: 1024px) {
+  .nav-list {
+    justify-content: center;
+    padding: 15px;
+  }
+
+  .list {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .list a {
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+  #cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card-info,
+  .card-img {
+    width: 90%;
+    margin-top: 20px;
+  }
+
+  #subcard {
+    flex-wrap: wrap;
+  }
+
+  .subcards1 {
+    width: 45%;
+    margin-bottom: 20px;
+  }
+
+  #mapa {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card-mapa,
+  .card-subinfo {
+    width: 90%;
+    margin-top: 20px;
+  }
+
+  #contato {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .formulario,
+  .redes {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+}
+
+/* RESPONSIVO CELULAR */
+
+@media (max-width: 768px) {
+  .nav-list {
+    justify-content: center;
+    padding: 10px;
+  }
+
+  .list {
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .list a {
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+  }
+  
+  #topo {
+    height: 150px;
+  }
+
+  .card-info h1 {
+    font-size: 24px;
+  }
+
+  .card-info p {
+    font-size: 16px;
+  }
+
+  .card-img {
+    height: 250px;
+  }
+
+  #subcard {
+    flex-direction: column;
+  }
+
+  .subcards1 {
+    width: 90%;
+  }
+
+  .subcards1 img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .icons img {
+    width: 50px;
+  }
+
+  footer {
+    padding: 20px;
+  }
+}
